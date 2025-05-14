@@ -69,7 +69,8 @@ print ("""
 #######################################################################################################       
 """)
 arr2d = np.array([[10,20,30],[100,200,300],[1000,2000,3000]])
-indices = [(1,2)]
+indices = (1,2)
 print (f"Array arr consists of elements: \n{arr2d}")
-print (f"List out Array's based on a variable indices = [0,2,4] arr[indices] \n {(arr2d[indices])}")
+print (f"List out Array's based on a variable indices = [0,2,4] arr[indices] \n {(arr2d[1,2])}")
+print (f"List out Array's based on a variable indices = [0,2,4] arr[indices] \n {arr2d[indices]}")
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
