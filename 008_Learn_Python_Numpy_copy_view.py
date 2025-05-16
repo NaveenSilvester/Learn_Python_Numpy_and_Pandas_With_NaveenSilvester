@@ -42,3 +42,8 @@ print (f"Manipulated Array arr arr[0] = 100 looks like:\n{arr}")
 print (f"Array x looks like this:\n{x}")
 print(f"NOTE: The x is an array which is a view of original array arr, changes made in arr gets reflected in x too")
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+a = np.arange(10)
+print (f"The value of a is {a}")
+a = 100
+print (f"The new value of a is {a}")
