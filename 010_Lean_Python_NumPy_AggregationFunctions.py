@@ -147,3 +147,65 @@ print (f"Total Median: {total_median}")
 print (f"Row Median: {row_median}")
 print (f"Col Median: {col_median}") 
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+print ("""
+#######################################################################################################
+       Example-6: Cumulative Sum
+       The cumulative sum calculates the running total of elements in an array.
+#######################################################################################################       
+""")
+A = np.array([1, 2, 3, 4, 5])
+# Compute Cumulative Sum
+total_cumsum = np.cumsum(A)
+print (f"Values in Array A: {A}")
+print (f"Cumulative Sum of A: {total_cumsum}")
+
+
+B = np.array([
+    [1,2,3],
+    [4,5,6]
+    ])
+# Compute Cumulative Sum
+total_cumsum = np.cumsum(B)
+# Row wise Cumulative Sum
+row_cumsum = np.cumsum(B, axis=1)
+# Col wise Cumulative Sum
+col_cumsum = np.cumsum(B, axis=0)
+
+print (f"Values in Array B: \n{B}")
+print (f"Cumulative Sum of B: \n{total_cumsum}")
+print (f"Cumulative Row Sum of B: \n{row_cumsum}")
+print (f"Cumulative Col Sum of B: \n{col_cumsum}")
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+
+print ("""
+#######################################################################################################
+       Example-6: Cumulative Product
+       The cumulative product calculates the running product of elements
+#######################################################################################################       
+""")
+X = np.array([1, 2, 3, 4, 5])
+# Compute Cumulative Sum
+total_cumprod = np.cumprod(A)
+print (f"Values in Array X: {X}")
+print (f"Cumulative Product of X: {total_cumprod}")
+
+
+P = np.array([
+    [1,2,3],
+    [4,5,6]
+    ])
+# Compute Cumulative Product
+total_cumprod = np.cumprod(P)
+# Row wise Cumulative Product
+row_cumprod = np.cumprod(P, axis=1)
+# Col wise Cumulative Product
+col_cumprod = np.cumprod(P, axis=0)
+
+print (f"Values in Array P: \n{P}")
+print (f"Cumulative Product of P: \n{total_cumprod}")
+print (f"Cumulative Row Product of P: \n{row_cumprod}")
+print (f"Cumulative Col Product of P: \n{col_cumprod}")
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
