@@ -57,3 +57,40 @@ print (f"Elements for A : {A}")
 print (f"Filtering elements of A that are > 20  and are even: {(A[A > 20])}")
 print (f"Filtering elements of A that are > 20  and are even: {A[(A %2 == 0) & (A > 20)]}")
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+###########################################################################################################
+### Play Book
+###########################################################################################################
+
+AA = np.array([1,2,3,4,5,6,7,8,9,10])
+AA_2D = AA.reshape(2,5)
+
+print (f"{AA.dtype} : DataType is {type(AA)} : Dimension is {AA.ndim} : shape is : {AA.shape} ")
+print (f"AA_2D is {AA_2D} DataType is {type(AA_2D)} : Dimension is {AA_2D.ndim} : shape is : {AA_2D.shape} : ")
+
+
+numpy_arr = np.arange(1,100,2)
+auto_reshaped = numpy_arr.reshape(-1,10)
+print (auto_reshaped)
+
+print (f"AA is {AA}")
+AA_slice = AA[1:5]
+print (f"AA_slice is {AA_slice}")
+print (f"AA > 2 : {AA[AA > 2]}")
+AA_slice = 7
+print (f"AA : {AA}")
+
+print (f"AA : {AA}")
+
+
+arr = np.array([1,2,3,4,5,6,7,8,9,10])
+slice_arr = arr[1:4]
+print (f"slice_arr: \n{slice_arr}\n")
+print (f"arr: \n{arr}\n")
+slice_arr[:] = 99
+print (f"slice_arr: \n{slice_arr}\n")
+print (f"arr: \n{arr}\n")
+
+arr = np.array([1,2,3,1,5,6,7,8,9,10])
+index = np.where(arr == 1)
+print(f"Index is {index}")
