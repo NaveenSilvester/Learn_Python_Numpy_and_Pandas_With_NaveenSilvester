@@ -46,3 +46,19 @@ exists = np.isin(A, 50)
 print (f"The element 50 is iin array A : {np.isin(A, 50)} : Their valus is {np.where(np.isin(A, 50))}")
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
 
+#################################################################################################################
+## Playbook
+#################################################################################################################
+
+def custom_fun(x):
+ 	return x**2 + 2*x + 1
+# Create and Array
+arr = np.array([1,2,3,4]) 
+# Apply function using np.vectorize()
+vectorized_func = np.vectorize(custom_fun)
+result = vectorized_func(arr)
+print(result) 
+
+
+arr2 = np.array([1,2,3,4])
+print (arr2 ** 2 + 2* arr2 + 1)
