@@ -40,3 +40,23 @@ age = students["age"]
 a = list(zip(name,age))
 print (f"Name and grades of students are: {a}")
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+B = np.array([[10], [20]])  # Shape (2,1)
+C = np.array([1, 2, 3] )     # Shape (1,3)
+result = B + C  # Broadcasting applied
+print(result)
+
+print("$$$$$$$$$$$$$$$$$$$$$$$$$")
+
+A = np.array([
+[1,2,3],
+[4,5,6],
+[7,8,9]
+])
+
+# Define a 1D Array (1x3)
+B = np.array([10,200,300])
+# Perform element-wise addition
+result = A + B
+print (result)
+
