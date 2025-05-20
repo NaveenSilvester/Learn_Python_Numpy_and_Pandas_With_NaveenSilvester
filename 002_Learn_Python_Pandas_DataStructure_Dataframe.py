@@ -113,3 +113,75 @@ data.index = ["R1","R2","R3"]
 print(f"DataFrame with Custom index looks like:\n{data}")
 print(f"Fetching the second Row :\n{data.iloc[1]}")
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+print ("""
+#######################################################################################################
+       Example-5: Creating DataFrame from Dictionary
+#######################################################################################################       
+""")
+data = {
+"name": ["Allen", "Kane", "Lambert"],
+"section": ["C","D","E"],
+"city": ["Bangalore","Columbo","Beijing"]
+} 
+df = pd.DataFrame(data)
+print(f"The newly created DataFrame contains: \n{df}")
+
+df.index = ["R1","R2","R3"]
+print(f"DataFrame with Row Headers:\n{df}")
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+print ("""
+#######################################################################################################
+       Example-6: Creating DataFrame from List
+#######################################################################################################       
+""")
+list = [
+    ["Allen", "C", "Bangalore"],
+    ["Kane", "D", "Colombo"],
+    ["Lambert", "E", "Beijing"]
+]
+df = pd.DataFrame(list, columns=["Name", "Section", "City"])
+
+print(f"The newly created DataFrame contains: \n{df}")
+
+df.index = ["L1","L2","L3"]
+print(f"DataFrame with Row Headers:\n{df}")
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+print ("""
+#######################################################################################################
+       Example-7: Creating DataFrame from List of Dictionaries
+#######################################################################################################       
+""")
+data = [
+    {"Name": "Alice", "Age": 25, "City": "New York"},
+    {"Name": "Bob", "Age": 30, "City": "Paris"},
+    {"Name": "Charlie", "Age": 35, "City": "London"}
+]
+df = pd.DataFrame(data)
+
+print(f"The newly created DataFrame contains: \n{df}")
+
+df.index = ["LD1","LD2","LD3"]
+print(f"DataFrame with Row Headers:\n{df}")
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+
+print ("""
+#######################################################################################################
+       Example-8 Creating DataFrame from List of Dictionaries
+#######################################################################################################       
+""")
+data = [
+    {"Name": "Alice", "Age": 25, "City": "New York"},
+    {"Name": "Bob", "Age": 30, "City": "Paris"},
+    {"Name": "Charlie", "Age": 35, "City": "London"}
+]
+df = pd.DataFrame(data)
+
+print(f"The newly created DataFrame contains: \n{df}")
+
+df.index = ["LD1","LD2","LD3"]
+print(f"DataFrame with Row Headers:\n{df}")
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
