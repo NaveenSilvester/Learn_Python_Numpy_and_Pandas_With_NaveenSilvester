@@ -185,3 +185,96 @@ print(f"The newly created DataFrame contains: \n{df}")
 df.index = ["LD1","LD2","LD3"]
 print(f"DataFrame with Row Headers:\n{df}")
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+print ("""
+#######################################################################################################
+       Example-9 Creating DataFrame from CSV files
+#######################################################################################################       
+""")
+data = pd.read_csv("Fruits_comma.csv")
+print(data)
+print(type(data))
+print(data.shape)
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+print ("""
+#######################################################################################################
+       Example-10 Creating DataFrame from NumPy array
+#######################################################################################################       
+""")
+import numpy as np
+data = np.array([1,2,3,4,5,6,7,8,9,10])
+data = data.reshape(2,5)
+print (f"Data is of the data type: {type(data)}")
+df = pd.DataFrame(data, columns=["C1","C2","C3","C4","C5"], index=["R1", "R2"])
+print (f"The DataFrame looks like this: \n{df}")
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+print ("""
+#######################################################################################################
+       Example-11 Creating DataFrame from Excel
+#######################################################################################################       
+""")
+import numpy as np
+import pandas as pd
+data = pd.read_excel("Nutrition.xlsx", sheet_name="VitaminFruits")
+print(f"Data is : \n{data}")
+print(f"Data type is: {type(data)}")
+print(f"Data shape is: {data.shape}")
+
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+print ("""
+#######################################################################################################
+       Example-12 Creating DataFrame from JSON
+#######################################################################################################       
+""")
+
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+print ("""
+#######################################################################################################
+       Example-13 Writing DataFrame to CSV files
+#######################################################################################################       
+""")
+import numpy as np
+data = np.array([1,2,3,4,5,6,7,8,9,10])
+data = data.reshape(2,5)
+print (f"Data is of the data type: {type(data)}")
+df = pd.DataFrame(data, columns=["C1","C2","C3","C4","C5"], index=["R1", "R2"])
+print (f"The DataFrame looks like this: \n{df}")
+df.to_csv("CSV_Output.csv", index=False)
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+print ("""
+#######################################################################################################
+       Example-13 Writing DataFrame to Excel file
+#######################################################################################################       
+""")
+import numpy as np
+data = np.array([1,2,3,4,5,6,7,8,9,10])
+data = data.reshape(2,5)
+print (f"Data is of the data type: {type(data)}")
+df = pd.DataFrame(data, columns=["C1","C2","C3","C4","C5"], index=["R1", "R2"])
+print (f"The DataFrame looks like this: \n{df}")
+df.to_excel("Excel_Output.xlsx", index=False)
+
+with pd.ExcelWriter("Excel_Fromtted_output.xlsx", engine="openpyxl") as writer:
+    df.to_excel(writer, sheet_name="MyReport", index=False)
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+print ("""
+#######################################################################################################
+       Example-14 Writing DataFrame to JSON
+#######################################################################################################       
+""")
+import numpy as np
+data = np.array([1,2,3,4,5,6,7,8,9,10])
+data = data.reshape(2,5)
+print (f"Data is of the data type: {type(data)}")
+df = pd.DataFrame(data, columns=["C1","C2","C3","C4","C5"], index=["R1", "R2"])
+print (f"The DataFrame looks like this: \n{df}")
+df.to_json("JSON_Output.json", orient="records", indent=4)
+print("Successfully written to JSON file!")
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+

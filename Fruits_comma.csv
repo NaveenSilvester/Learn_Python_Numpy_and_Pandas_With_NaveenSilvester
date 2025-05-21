@@ -1,0 +1,51 @@
+﻿Name of Fruit,Vitamin,Vitamin Content mg/100 g,Source of Information,Recommended Daily Allowance
+Cantaloupe,Vitamin A,3.38 mg,Nutritionix,"900 mcg (Men), 700 mcg (Women)"
+Apricot,Vitamin A,1.93 mg,Nutritionix,"900 mcg (Men), 700 mcg (Women)"
+Passion Fruit,Vitamin A,1.27 mg,Nutritionix,"900 mcg (Men), 700 mcg (Women)"
+Grapefruit,Vitamin A,1.15 mg,Nutritionix,"900 mcg (Men), 700 mcg (Women)"
+Mango,Vitamin A,1.08 mg,Nutritionix,"900 mcg (Men), 700 mcg (Women)"
+Papaya,Vitamin A,0.95 mg,Nutritionix,"900 mcg (Men), 700 mcg (Women)"
+Plantain,Vitamin A,0.91 mg,Nutritionix,"900 mcg (Men), 700 mcg (Women)"
+Guava,Vitamin A,0.62 mg,Nutritionix,"900 mcg (Men), 700 mcg (Women)"
+Watermelon,Vitamin A,0.57 mg,Nutritionix,"900 mcg (Men), 700 mcg (Women)"
+Plum,Vitamin A,0.35 mg,Nutritionix,"900 mcg (Men), 700 mcg (Women)"
+Kakadu Plum,Vitamin C,"2,907 mg",Healthline,"90 mg (Men), 75 mg (Women)"
+Acerola Cherry,Vitamin C,"1,600 mg",Livemint,"90 mg (Men), 75 mg (Women)"
+Rose Hips,Vitamin C,426 mg,Healthline,"90 mg (Men), 75 mg (Women)"
+Amla (Indian Gooseberry),Vitamin C,600-700 mg,Times of India,"90 mg (Men), 75 mg (Women)"
+Guava,Vitamin C,200-250 mg,Times of India,"90 mg (Men), 75 mg (Women)"
+Blackcurrant,Vitamin C,180-200 mg,Times of India,"90 mg (Men), 75 mg (Women)"
+Kiwi,Vitamin C,92 mg,Healthsomeness,"90 mg (Men), 75 mg (Women)"
+Strawberries,Vitamin C,85 mg,Healthsomeness,"90 mg (Men), 75 mg (Women)"
+Lemon,Vitamin C,120-130 mg,Times of India,"90 mg (Men), 75 mg (Women)"
+Papaya,Vitamin C,60 mg,Times of India,"90 mg (Men), 75 mg (Women)"
+Orange,Vitamin D,Trace amounts,HexaHealth,15 mcg (600 IU)
+Avocado,Vitamin D,Trace amounts,Felix Hospital,15 mcg (600 IU)
+Banana,Vitamin D,Trace amounts,HexaHealth,15 mcg (600 IU)
+Mango,Vitamin D,Trace amounts,Felix Hospital,15 mcg (600 IU)
+Grapes,Vitamin D,Trace amounts,HexaHealth,15 mcg (600 IU)
+Papaya,Vitamin D,Trace amounts,Felix Hospital,15 mcg (600 IU)
+Pomegranate,Vitamin D,Trace amounts,HexaHealth,15 mcg (600 IU)
+Guava,Vitamin D,Trace amounts,Felix Hospital,15 mcg (600 IU)
+Kiwi,Vitamin D,Trace amounts,HexaHealth,15 mcg (600 IU)
+Strawberries,Vitamin D,Trace amounts,Felix Hospital,15 mcg (600 IU)
+Avocado,Vitamin E,2.7 mg,Times of India,15 mg
+Olives,Vitamin E,1.7 mg,Times of India,15 mg
+Kiwi,Vitamin E,1.5 mg,Times of India,15 mg
+Blackberries,Vitamin E,1.2 mg,Times of India,15 mg
+Mangoes,Vitamin E,0.9 mg,Times of India,15 mg
+Apricots,Vitamin E,0.9 mg,Times of India,15 mg
+Papaya,Vitamin E,0.8 mg,Times of India,15 mg
+Guavas,Vitamin E,0.7 mg,Times of India,15 mg
+Raspberries,Vitamin E,0.6 mg,Times of India,15 mg
+Pomegranates,Vitamin E,0.6 mg,Times of India,15 mg
+Prunes (Dried Plums),,59.5,USDA FoodData Central,"90 (Women), 120 (Men)"
+Kiwi,,40.3,PubMed (NIH),"90 (Women), 120 (Men)"
+Avocado,,21,National Institutes of Health (NIH),"90 (Women), 120 (Men)"
+Blackberries,,19.8,USDA National Nutrient Database,"90 (Women), 120 (Men)"
+Blueberries,,19.3,Food Chemistry Journal,"90 (Women), 120 (Men)"
+Pomegranate,,16.4,Journal of Agricultural and Food Chemistry,"90 (Women), 120 (Men)"
+Grapes (Red/Green),,14.6,USDA FoodData Central,"90 (Women), 120 (Men)"
+Figs (Dried),,15.6,PubMed (NIH),"90 (Women), 120 (Men)"
+Raspberries,,7.8,Food & Nutrition Research,"90 (Women), 120 (Men)"
+Pear,,4.5,USDA National Nutrient Database,"90 (Women), 120 (Men"
