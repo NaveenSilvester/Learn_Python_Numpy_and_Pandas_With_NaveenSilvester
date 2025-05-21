@@ -131,5 +131,4 @@ print(f"Original DataFrame: \n{df}")
 df['Age'] = df['Age'].astype(int)
 print("\nAfter converting Age to integer:")
 print(df)
-
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
