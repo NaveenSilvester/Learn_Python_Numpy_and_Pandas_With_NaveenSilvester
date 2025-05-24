@@ -1,4 +1,6 @@
 
+import pandas as pd
+import numpy as np
 print ("""
 #######################################################################################################
        Example-1: Merging and Joining
@@ -27,10 +29,3 @@ merged_df = pd.merge(df, df2, on='Department', how='left')
 print("\nMerged DataFrame (Merged based on Department):")
 print(merged_df)
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
-
-print ("""
-#######################################################################################################
-       Example-6: Merging and Joining
-       Use merge() or concat() to combine DataFrames.
-#######################################################################################################       
-""")
